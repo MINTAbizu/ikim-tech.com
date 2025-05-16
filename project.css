@@ -1,0 +1,62 @@
+.site-section {
+  padding: 2.5em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 5em 0; } }
+  .site-section.site-section-sm {
+    padding: 4em 0; }
+
+.site-section-heading {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 2.5rem; }
+  @media (min-width: 768px) {
+    .site-section-heading {
+      font-size: 3rem; } }
+
+
+
+
+      .media-1 {
+    position: relative;
+    overflow: hidden;
+  }
+  .view{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .projectcard{
+    margin-bottom: 10px;
+  }
+  
+  .media-1 img {
+    transition: filter 0.3s ease;
+  }
+  
+  .media-1-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .media-1:hover img {
+    filter: blur(2px);
+    
+  }
+  
+   .social-media{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 10px;
+            
+            list-style: none;
+            text-decoration: none;
+        }
+  .media-1:hover .media-1-content {
+    opacity: 1;
+  }

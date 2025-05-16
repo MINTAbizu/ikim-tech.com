@@ -1,0 +1,21 @@
+.memberimg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.teammemeber{
+    border: 2px solid #033D54;
+    border-radius: 8px;
+}
+.teammemeber{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.teammemeber:hover{
+    transform: translateY(-5px);
+       box-shadow: 0 20px 20px #f1ededf3;
+}
+
+.contactleft p{
+    color: #033D54;
+}
